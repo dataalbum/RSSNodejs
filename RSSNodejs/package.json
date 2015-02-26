@@ -1,0 +1,19 @@
+{
+  "name": "RSSNodejs",
+  "version": "0.0.0",
+  "description": "RSSNodejs",
+  "main": "app.js",
+  "author": {
+    "name": "Riina",
+    "email": ""
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "cron": "^1.0.6",
+    "feedparser": "^0.19.2",
+    "log-timestamp": "^0.1.2",
+    "mongoose": "^3.8.23",
+    "request": "^2.53.0",
+    "require": "^2.4.17"
+  }
+}
