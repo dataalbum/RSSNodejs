@@ -17,7 +17,7 @@ var feedSchema = new Schema({
 var Feed = mongoose.model('Feed', feedSchema);
 
 var job = new CronJob({
-    cronTime: '0 * * * * *',
+    cronTime: '0 0-59 * * * *',
     
     onTick: function () {
         
